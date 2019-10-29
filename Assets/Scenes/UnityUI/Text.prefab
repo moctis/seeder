@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4382677442435197529}
   - component: {fileID: 4382677442435197531}
   - component: {fileID: 4382677442435197530}
-  - component: {fileID: 3075916005867911570}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -64,6 +63,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
@@ -78,16 +79,3 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Hello World
---- !u!114 &3075916005867911570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4382677442435197528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd5bb4d728685fb499aa0653b6c4f736, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates: []
