@@ -95,25 +95,5 @@ public class TouchManager : MonoBehaviour
             TargetPlane.Raycast(touchRay, out var distance);
             M0 = TargetObject.transform.position - ray.GetPoint(distance);
         }
-        //else if (canvasRaycaster != null)
-        //{
-        //    var ed = new PointerEventData(EventSystem.current) {position = ray.origin};
-        //    var raycastResults = new List<RaycastResult>();
-        //    canvasRaycaster.Raycast(ed, raycastResults);
-
-        //    if (raycastResults.Count > 0)
-        //    {
-        //        TargetObject = raycastResults[0].gameObject;
-        //        TargetPlane = new Plane(Camera.main.transform.forward * -1, TargetObject.transform.position);
-
-        //        // calc touch offset
-        //        var touchRay = Camera.main.ScreenPointToRay(touchPosition);
-        //        TargetPlane.Raycast(touchRay, out var distance);
-        //        M0 = TargetObject.transform.position - ray.GetPoint(distance);
-
-        //        Debug.Log("canvas" + TargetObject.name);
-        //    }
-        //}
-
     }
 }
