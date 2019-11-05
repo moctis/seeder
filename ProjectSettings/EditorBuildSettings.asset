@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/InputDeviceTester/InputDeviceTester.unity
     guid: 401d9a8859c068f4db3331d02e2854a1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UnityUI/UnityUI.unity
     guid: 14ad0beb9e7769c44bf3850eef239f27
   - enabled: 0
     path: Assets/Scenes/RandomBit/RandomBit.unity
     guid: 989e8042320b2154d96ab2fad634ed2c
+  - enabled: 1
+    path: Assets/Scenes/Seed/Seed.unity
+    guid: 90c85d559b163474ebc877c1e7d1148a
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d823760c6b5218541a75d0c6c0312182,
       type: 2}
