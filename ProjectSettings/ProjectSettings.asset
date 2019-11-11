@@ -548,7 +548,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
-    1: UNITY_CCU
+    1: UNITY_CCU;PLANNER_DOMAIN_GENERATED;PLANNER_ACTIONS_GENERATED
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}

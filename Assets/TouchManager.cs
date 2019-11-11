@@ -9,7 +9,6 @@ public class TouchManager : MonoBehaviour
     public Vector3 M0;
     public GameObject TargetObject;
     public Plane TargetPlane;
-    public GraphicRaycaster canvasRaycaster;
 
     Ray GenerateRay(Vector3 touchPos)
     {
@@ -23,7 +22,7 @@ public class TouchManager : MonoBehaviour
 
     void Update()
     {
-        Count.text = Input.touchCount.ToString();
+        if (Count != null) Count.text = Input.touchCount.ToString();
         switch (Input.touchCount)
         {
             case 0 when Input.GetMouseButtonDown(0):
